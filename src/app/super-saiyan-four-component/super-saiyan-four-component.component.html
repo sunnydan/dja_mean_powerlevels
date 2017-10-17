@@ -1,0 +1,7 @@
+<fieldset class="subcomponent">
+    <legend>Super Saiyan Four Component</legend>
+    Powerlevel: {{ bpl * 500 }}
+    <p *ngIf="bpl * 500 > 9000 && bpl * 500 <= 20000 ">Over 9000!</p>
+    <p *ngIf="bpl * 500 > 20000 && bpl * 500 < 50000">Superlative!</p>
+    <p *ngIf="bpl * 500 >= 50000">The One</p>
+  </fieldset>

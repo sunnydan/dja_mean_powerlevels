@@ -1,5 +1,9 @@
 # Powerlevels
 
+Create an app which a user can input a power level value between 1-100 in the input tag. Present the user 6 sections that use the power level value, multiply it by a specific multiplier and display the adjusted value.
+
+For this assignment, we can store the value of the power in our PowerComponent, and we can use the @Input() feature to pass our power level into each of the sub components. The Sub components may now take the inputted power level, manipulate it and present it on the template.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.7.
 
 ## Development server
